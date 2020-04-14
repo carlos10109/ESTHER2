@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body{
+     background-color: #CCAEE6;
+     
+ }
+ 
+
+.atras {
+    background-color: #CCAEE6;
+    width: 100%;
+    height: auto;
+    -webkit-background-size: 100% 100%;
+    /* Safari 3.0 */
+    -moz-background-size: 100% 100%;
+    /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: 100% 100%;
+    /* Opera 9.5 */
+    background-size: 100% 100%;
+    /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+}
+
+#frente{ /* identificador permite que la imagen se expanda */
+    width: 80%;
+    background-color: #8F8FB1;
+    height: 2000px;
+    margin: auto;
+    opacity: 1;
+    color: white;
+    
+}
+
+#encabezado{
+
+    background: url('../img/banner2.jpg');
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    background-size: 1349px 350px;
+    
+    height: 350px;  /* alto 
+    text-align: center;  texto centrado 
+    background-image: url("../img/banner2.jpg.png");
+    background-repeat: no-repeat; 
+    background: #d0e6f8; 
+      tamaño de la imagen*/ 
+    
+}
+
+.piePagina{ 
+    width: 100%; 
+    height: 100px; 
+    background: #333333;
+    bottom: 0;
+    color: black;
+    left: 0px; 
+    text-align: center;
+}
+
+#menu{
+    height: 40px;
+    position: relative;
+    top: 350px; /* ubicacion abajo*/
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333333;
+}
+
+li{
+    float: left; /* lado izquierdo, centardo center, derecha right */
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111111;
+}
+
+
+
+#carouselExampleSlidesOnly{
+    position: center;
+    left: auto;
+    right: auto;
+    color:black;
+   
+}
+
+.carousel-slide > .carousel-item > img { 
+    width: 100px; 
+    height: 260px; 
+}
+
+h5{
+    color: black;
+}
+
+h2{
+    font-family: cursive;
+}
+
+h3{
+   text-align: center;
+}
+
+p{
+    color: black;
+}
+
+
+  /* Icons */
+  
+  footer a {
+    color:#fff;
+    background: #894D69;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    font-family: fontawesome;
+    position: relative;
+    display: inline-block;
+    width:40px;
+    height:28px;
+    padding-top:12px;
+    margin:0 2px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+     -webkit-font-smoothing: antialiased;
+  }
+  
+  a:hover {
+    background: #ef92a3;
+  }
+  
+  /* pop-up text */
+  
+  a span {
+    color:#666;
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:5px 7px;
+    z-index:-1;
+    font-size:14px;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  /* pop-up text arrow */
+  
+  a span:before {
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:40px;
+  }
+  
+  /* text pops up when icon is in hover state */
+  
+  a:hover span {
+    bottom:50px;
+    visibility:visible;
+    opacity:1;
+  }
+
+
+
+table tr td{
+    color: white;
+}
+
+ul li{
+    color: white;
+}
+
+div h1{
+    font-family: cursive;
+}
+
+
+
+
+
